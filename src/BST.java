@@ -5,10 +5,10 @@ public class BST {
 	}
 	
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		TNode n = new TNode(3);
 		System.out.println(n);
-	}
+	}*/
 	
 	
 }
