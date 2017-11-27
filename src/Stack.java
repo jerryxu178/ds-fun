@@ -1,7 +1,7 @@
 public class Stack {
-	public xNode top;
+	public sNode top;
 	public void spush(int num){
-		xNode ntop = new xNode(num);
+		sNode ntop = new sNode(num);
 		ntop.next = this.top;
 		this.top = ntop;
 	}
@@ -10,14 +10,18 @@ public class Stack {
 	}
 	
 	public void print_stack() {
-		xNode n = this.top;
+		sNode n = this.top;
 		while(n != null) {
 			System.out.println(n.data);
 			n = n.next;
 		}
 	}
 	
-	public void stack_with_queue() {
+	public void enQ(int num) {
+		;
+	}
+	
+	public void deQ() {
 		;
 	}
 	/**public static void main(String[] args) {
@@ -30,10 +34,10 @@ public class Stack {
 	}**/
 }
 
-/**class xNode{
+class sNode{
 	public int data;
-	public xNode next;
-	public xNode(int num) {
+	public sNode next;
+	public sNode(int num) {
 		this.data = num;
 	}
-}**/
+}
