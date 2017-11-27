@@ -1,8 +1,8 @@
 public class Queue {
-	public xNode front;
-	public xNode back;
+	public qNode front;
+	public qNode back;
 	public void enQ(int num) {
-		xNode add = new xNode(num);
+		qNode add = new qNode(num);
 		if (this.back == null) {
 			if(this.front == null) {
 				this.front = add;
@@ -28,13 +28,17 @@ public class Queue {
 		}
 	}
 	
-	public void enQx(int num) {
-		Stack myS = new Stack();
+	public void qPush(int num) {
+		;
+	}
+	
+	public void qPop() {
+		;
 	}
 
 	
 	public void print_Q() {
-		xNode ptr = this.front;
+		qNode ptr = this.front;
 		while (ptr != null) {
 			System.out.println(ptr.data);
 			ptr = ptr.next;
@@ -55,10 +59,10 @@ public class Queue {
 	}
 }
 
-class xNode{
+class qNode{
 	public int data;
-	public xNode next;
-	public xNode(int num) {
+	public qNode next;
+	public qNode(int num) {
 		this.data = num;
 	}
 }
