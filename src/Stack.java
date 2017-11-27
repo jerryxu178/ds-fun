@@ -1,16 +1,16 @@
 public class Stack {
-	public SNode top;
-	public void push(int num){
-		SNode ntop = new SNode(num);
+	public xNode top;
+	public void spush(int num){
+		xNode ntop = new xNode(num);
 		ntop.next = this.top;
 		this.top = ntop;
 	}
-	public void pop() {
+	public void spop() {
 		this.top = this.top.next;
 	}
 	
 	public void print_stack() {
-		SNode n = this.top;
+		xNode n = this.top;
 		while(n != null) {
 			System.out.println(n.data);
 			n = n.next;
@@ -22,18 +22,18 @@ public class Stack {
 	}
 	/**public static void main(String[] args) {
 		Stack myStack = new Stack();
-		myStack.push(3);
-		myStack.push(5);
-		myStack.push(7);
-		myStack.pop();
+		myStack.spush(3);
+		myStack.spush(5);
+		myStack.spush(7);
+		myStack.spop();
 		myStack.print_stack();
 	}**/
 }
 
-class SNode{
+/**class xNode{
 	public int data;
-	public SNode next;
-	public SNode(int num) {
+	public xNode next;
+	public xNode(int num) {
 		this.data = num;
 	}
-}
+}**/
