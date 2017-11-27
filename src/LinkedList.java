@@ -114,7 +114,6 @@ public class LinkedList {
 		m.append_to_tail(2);
 		LinkedList n = sum(m, l);
 		n.print_list();
-		
 	}**/
 	
 }

@@ -35,6 +35,9 @@ public class Queue {
 		}
 	}
 	
+	public void queue_with_stack(){
+		;
+	}
 	/**public static void main(String[] args) {
 		Queue myQ = new Queue();
 		myQ.enQ(3);

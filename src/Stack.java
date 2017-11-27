@@ -16,6 +16,10 @@ public class Stack {
 			n = n.next;
 		}
 	}
+	
+	public void stack_with_queue() {
+		;
+	}
 	/**public static void main(String[] args) {
 		Stack myStack = new Stack();
 		myStack.push(3);
