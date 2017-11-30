@@ -52,7 +52,6 @@ public class Queue {
 		Queue myQ = new Queue();
 		myQ.enQ(3);
 		myQ.enQ(1);
-		myQ.enQ(7);
 		myQ.deQ();
 		myQ.print_Q();
 		
