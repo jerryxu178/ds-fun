@@ -43,11 +43,8 @@ public class Queue {
 			System.out.println(ptr.data);
 			ptr = ptr.next;
 		}
-	}
-	
-	public void queue_with_stack(){
-		;
-	}
+	}	
+
 	public static void main(String[] args) {
 		Queue myQ = new Queue();
 		myQ.enQ(3);
